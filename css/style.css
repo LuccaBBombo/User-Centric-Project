@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+
+/*--------------------------------------------Navbar*/
+
+.navbar-container {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+
+.navbar-brand {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.nav-headlight {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+
+}
+
+a:hover {
+
+    color: #585c61;
+}
+
+/*Navbar--------------------------------------------*/
+
+/*--------------------------------------------Home*/
+
+.home-container {
+    height: 100vh;
+    background: url('../images/maxresdefaulttwo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron-home {
+    background-color: transparent;
+}
+
+
+.home-header {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.home-text {
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*Home--------------------------------------------*/
+
+/*--------------------------------------------Footer*/
+
+.footer {
+    background-color: #484747;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-header {
+    margin-top: 16px;
+}
+
+.social-links  a i {
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+     
+}
+
+.social-links  a i:hover {
+    background: #fafafa;
+    color:#8f8f8f;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+/*Footer--------------------------------------------*/
