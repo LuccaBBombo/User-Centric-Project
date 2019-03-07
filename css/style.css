@@ -1,25 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+/*General--------------------------------------------*/
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url('../images/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
+.row {
+margin: 0;
+}
+
+/*--------------------------------------------General*/
  
 
 
-/*--------------------------------------------Navbar*/
+/*Navbar--------------------------------------------*/
 
 .navbar-container {
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
+    top:0;
+    left:0;
     width: 100%;
     margin-bottom: 16px;
 }
-
-
 
 .navbar-brand {
     color: #fafafa;
@@ -45,24 +53,21 @@ a:hover {
     color: #585c61;
 }
 
-/*Navbar--------------------------------------------*/
+/*--------------------------------------------Navbar*/
 
-/*--------------------------------------------Home*/
+/*Home--------------------------------------------*/
 
-.home-container {
+.callout-home {
     height: 100vh;
-    background: url('../images/maxresdefaulttwo.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    margin-top: 60px;
+    padding:0;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .jumbotron-home {
+    
     background-color: transparent;
 }
 
@@ -81,31 +86,73 @@ a:hover {
     font-size: 25px;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+.home-info{
+    color:#fafafa;
+    font-size: 16px;
+    font-weight: lighter;
+    
 }
 
-/*Home--------------------------------------------*/
 
-/*--------------------------------------------Footer*/
+/*--------------------------------------------Home*/
+
+/*Contact--------------------------------------------*/
+
+.contact-page{
+    height: 100vh;
+    margin-top: 60px;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header{
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-bottom:20px;
+    
+}
+
+.contact-text{
+    color: #fafafa;
+    font-size: 25px;
+    margin-bottom:20px;
+    
+}
+
+.button-submit{
+    color:#fafafa;
+    background-color:#484747;
+    margin-top: 20px;
+    border:none;
+}
+
+.button-submit:hover{
+    color:#fafafa;
+    background-color:#85898d;
+}
+    
+
+/*--------------------------------------------Contact*/
+
+/*Footer--------------------------------------------*/
 
 .footer {
     background-color: #484747;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    width:100%;
 }
 
 .footer-header {
     margin-top: 16px;
 }
 
-.social-links  a i {
+.social-links  li a i {
+    display: inline-block;
     width: 50px;
     height: 50px;
     padding: 15px 0;
@@ -131,4 +178,13 @@ a:hover {
     padding-bottom: 15px;
 }
 
-/*Footer--------------------------------------------*/
+/*--------------------------------------------Footer*/
+
+/*Media Queries--------------------------------------------*/
+@media(max-width: 992px){
+    .home-info{
+     display: none;
+    }
+}
+
+/*--------------------------------------------Media Queries*/
