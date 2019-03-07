@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 /*General--------------------------------------------*/
+
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url('../images/maxresdefault.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .row {
-margin: 0;
+    margin: 0;
 }
 
 /*--------------------------------------------General*/
- 
-
 
 /*Navbar--------------------------------------------*/
 
-.navbar-container {
+.navbar-fixed {
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     margin-bottom: 16px;
 }
@@ -59,15 +58,14 @@ a:hover {
 
 .callout-home {
     height: 100vh;
-    margin-top: 60px;
-    padding:0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .jumbotron-home {
-    
+
     background-color: transparent;
 }
 
@@ -86,11 +84,11 @@ a:hover {
     font-size: 25px;
 }
 
-.home-info{
-    color:#fafafa;
+.home-info {
+    color: #fafafa;
     font-size: 16px;
     font-weight: lighter;
-    
+
 }
 
 
@@ -98,44 +96,103 @@ a:hover {
 
 /*Contact--------------------------------------------*/
 
-.contact-page{
+.contact-page {
     height: 100vh;
-    margin-top: 60px;
-    padding:0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-header{
+.contact-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    margin-bottom:20px;
-    
+    margin-bottom: 20px;
+
 }
 
-.contact-text{
+.contact-text {
     color: #fafafa;
     font-size: 25px;
-    margin-bottom:20px;
-    
+    margin-bottom: 20px;
+
 }
 
-.button-submit{
-    color:#fafafa;
-    background-color:#484747;
+.button-submit {
+    color: #fafafa;
+    background-color: #484747;
     margin-top: 20px;
-    border:none;
+    border: none;
 }
 
-.button-submit:hover{
-    color:#fafafa;
-    background-color:#85898d;
+.button-submit:hover {
+    color: #fafafa;
+    background-color: #85898d;
 }
-    
+
 
 /*--------------------------------------------Contact*/
+
+/*Shows--------------------------------------------*/
+
+.shows-header {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.shows-subheader {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.show-info {
+    text-align: center;
+}
+
+.date-header {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.date-text {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.location-header {
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+
+}
+
+.location-text {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.button-tickets {
+    color: #fafafa;
+    background-color: #484747;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.button-tickets:hover {
+    color: #fafafa;
+    background-color: #85898d;
+}
+
+/*--------------------------------------------Shows*/
 
 /*Footer--------------------------------------------*/
 
@@ -144,14 +201,14 @@ a:hover {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    width:100%;
+    width: 100%;
 }
 
 .footer-header {
     margin-top: 16px;
 }
 
-.social-links  li a i {
+.social-links li a i {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -166,12 +223,12 @@ a:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-     
+
 }
 
-.social-links  a i:hover {
+.social-links a i:hover {
     background: #fafafa;
-    color:#8f8f8f;
+    color: #8f8f8f;
 }
 
 .social-links {
@@ -181,9 +238,10 @@ a:hover {
 /*--------------------------------------------Footer*/
 
 /*Media Queries--------------------------------------------*/
-@media(max-width: 992px){
-    .home-info{
-     display: none;
+
+@media(max-width: 992px) {
+    .home-info {
+        display: none;
     }
 }
 
