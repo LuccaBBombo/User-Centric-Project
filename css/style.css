@@ -32,6 +32,7 @@ body {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 25px;
+    margin-left: 0px;
 }
 
 .nav-link {
@@ -52,6 +53,10 @@ a:hover {
     color: #585c61;
 }
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
 /*--------------------------------------------Navbar*/
 
 /*Home--------------------------------------------*/
@@ -70,7 +75,7 @@ a:hover {
 }
 
 
-.home-header {
+.home-heading {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 60px;
@@ -123,6 +128,7 @@ a:hover {
     color: #fafafa;
     background-color: #484747;
     margin-top: 20px;
+    margin-bottom: 40px;
     border: none;
 }
 
@@ -194,6 +200,48 @@ a:hover {
 
 /*--------------------------------------------Shows*/
 
+/*Media--------------------------------------------*/
+
+.media-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-header{
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    
+}
+.media-text{
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    
+    
+}
+
+.music-title{
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+}
+
+.audio-bar{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 250px;
+}
+.video-player{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:none;
+}
+
+/*--------------------------------------------Media*/
+
 /*Footer--------------------------------------------*/
 
 .footer {
@@ -205,14 +253,16 @@ a:hover {
 }
 
 .footer-header {
+    font-size: 35px;
     margin-top: 16px;
+    font-family: 'Lobster', cursive;
 }
 
-.social-links li a i {
-    display: inline-block;
+.social-links a i {
     width: 50px;
     height: 50px;
     padding: 15px 0;
+    margin-bottom: 16px;
     border-radius: 50%;
     font-size: 25px;
     line-height: 18px;
@@ -235,14 +285,26 @@ a:hover {
     padding-bottom: 15px;
 }
 
+.social-links li {
+    display: inline;
+    margin-left: 10px;
+}
+
 /*--------------------------------------------Footer*/
 
 /*Media Queries--------------------------------------------*/
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
     .home-info {
         display: none;
     }
 }
+
+@media(max-width: 767px) {
+    .video-player{
+    display: none;
+    }
+}
+
 
 /*--------------------------------------------Media Queries*/
