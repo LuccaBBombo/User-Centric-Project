@@ -147,6 +147,7 @@ a:hover {
     font-family: 'Lobster', cursive;
     font-size: 65px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .shows-subheader {
@@ -208,36 +209,39 @@ a:hover {
     justify-content: center;
 }
 
-.media-header{
+.media-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 70px;
-    
+    font-size: 60px;
+    margin-top: 20px;
+
 }
-.media-text{
+
+.media-text {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 25px;
-    
-    
+
+
 }
 
-.music-title{
+.music-title {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 30px;
-    
+
 }
 
-.audio-bar{
+.audio-bar {
     margin-bottom: 20px;
     height: 50px;
     width: 250px;
 }
-.video-player{
+
+.video-player {
     margin-bottom: 20px;
     margin-top: 20px;
-    border:none;
+    border: none;
 }
 
 /*--------------------------------------------Media*/
@@ -294,17 +298,63 @@ a:hover {
 
 /*Media Queries--------------------------------------------*/
 
-@media(max-width: 991px) {
-    .home-info {
-        display: none;
+@media  (max-width: 767px) {
+    
+    .video-player {
+        width: 95%;
+        height: auto;
+    }
+
+
+.home-info {
+    display: none;
+}
+ .audio-bar{
+     width: 60%;
+     height: 50px;
+ }
+ .shows-header{
+     font-size: 50px;
+     margin-top: 30px;
+ }
+ 
+ .shows-subheader{
+     font-size: 25px;
+ }
+    
+
+.media-header{
+    font-size: 40px; 
+}
+
+.media-text {
+    font-size: 20px;
+}
+
+.home-heading{
+    font-size: 43px;
+}
+
+.home-text{
+    font-size: 20px;
+}
+
+.contact-header{
+    font-size: 35px;
+}
+
+.contact-text{
+    font-size: 20px;
+}
+}
+
+@media  (min-width: 760px) and (max-width:1020px) {
+    .video-player {
+        width: 80%;
+        height: 300px;
     }
 }
 
-@media(max-width: 767px) {
-    .video-player{
-    display: none;
-    }
-}
 
 
 /*--------------------------------------------Media Queries*/
