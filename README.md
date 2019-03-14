@@ -1,11 +1,11 @@
 User Centric Frontend Development Milestone Project  
 
-One or two paragraphs providing an overview of your project.
+This website was designed for a singer, in it you can easily find his social media links, listen to some of his musics and watch his music videos. You can also check the next shows dates and location, check tickets availability, buy tickets for the shows and even arrange for the band to some to a event by filling and submitting the contact form.
 
-Essentially, this part is your sales pitch.
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+In this project, the design was kept simple and intuitive, allowing everyone who will use the website, to easily locate what they are after and help them achieve what they want with maximun ease.
 
 User Stories:
 As a user, I want to be able to check when and where the next shows are going to take place, so I can make plans to attend.
@@ -15,52 +15,56 @@ As a user,  I want to know how I can get in contact to arrange the band / singer
 
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Contact form - allows users who want to book the band to go to a event to get in touch with them by having they fill the form and submit it .
+
+Shows & Tours - This page allows users to see when and where the next shows will be, know if there are any tickets available and purchasing tickets by clicking on the "Buy Tickets" button.
+
+Media - This page allows users to listen and watch videos of some of the singers musics.
 
 
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 
+Bootstrap
+The project uses Boostrap to allow for maximum responsiveness on various screen sizes.
+
+Font Awesome
+The project uses Font Awesome to be able to use icons for the social media links.
+
+Google Fonts
+The project uses Google Fonts to  apply the fonts used on the website.
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+To test the responsiveness of the website in various screen sizes, I used the developer tools inside the Google Chrom browser, always refering to the "Console" tab to make sure that the code didn't have any bugs.
+To test the markup of the files, I frequently used the W3C Validation Service to verify them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For testing the Contact form:
 
-Contact form:
 Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Try to submit the empty form and verify that an error message about the required fields appears.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+In mobiles, the font sizes were changed to have a better visual apeal for the users.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+For the deployment, the hosting platform used whas GithHub. With every change made, the files would be added and sent to the repository to ensure that the latest version of the code was saved.
 
 
-Different configuration files?
-Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+
 Credits
+
 Content
-The text for section Y was copied from the Wikipedia article Z
+The information used on the home page was copied from the Wikipedia article Rag'N' Bone Man.
+
 Media
-The photos used in this site were obtained from ...
+The photo used in this site were obtained from google images.
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from the classes and mini project made in the Code Institue Course.
