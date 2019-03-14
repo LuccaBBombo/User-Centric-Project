@@ -4,20 +4,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('../images/maxresdefaulttwo.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #101010;
     
 }
 
 
-/*
-.body-container {
+
+.home-container {
     height: 100vh;
-        width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     background: url('../images/maxresdefaulttwo.jpg') no-repeat center fixed;
@@ -27,7 +22,13 @@ body {
     background-size: cover;
 
 }
- ----*/
+
+.items-divider {
+    width: 40%;
+    height: 0.5px;
+    background-color: #fafafa;
+}
+ 
 
 .row {
     margin: 0;
@@ -40,7 +41,7 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: #484747;
     border: 0;
     color: #fafafa;
     font-family: 'Lobster', cursive;
@@ -52,7 +53,7 @@ body {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: lighter;
     margin-left: 0px;
 }
 
@@ -151,15 +152,15 @@ body {
 .shows-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 65px;
+    font-size: 75px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .shows-subheader {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 35px;
+    font-size: 33px;
     margin-bottom: 20px;
 }
 
@@ -170,26 +171,26 @@ body {
 .date-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .date-text {
     color: #fafafa;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .location-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
 .location-text {
     color: #fafafa;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .button-tickets {
@@ -218,8 +219,8 @@ body {
 .media-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 70px;
+    margin-top: 40px;
 
 }
 
@@ -235,6 +236,7 @@ body {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 30px;
+    margin-bottom: 25px;
 
 }
 
@@ -249,6 +251,8 @@ body {
     margin-top: 20px;
     border: none;
 }
+
+
 
 /*--------------------------------------------Media*/
 
@@ -320,7 +324,7 @@ body {
         height: 50px;
     }
     .shows-header {
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 30px;
     }
 
@@ -330,7 +334,7 @@ body {
 
 
     .media-header {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .media-text {
@@ -352,6 +356,13 @@ body {
     .contact-text {
         font-size: 20px;
     }
+    
+    .items-divider {
+    width: 60%;
+    height: 0.5px;
+    background-color: #fafafa;
+}
+ 
 }
 
 
