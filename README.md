@@ -67,4 +67,6 @@ Media
 The photo used in this site were obtained from google images.
 
 Acknowledgements
+
 I received inspiration for this project from the classes and mini project made in the Code Institue Course.
+
