@@ -14,6 +14,7 @@ User Stories:
 * As a user, I would like to see some music videos.
 * As a user,  I want to know how I can get in contact to arrange the band / singer to attend an event.
 
+[Desktop Mockup](mockups/desktop_mockup.pdf)
 
 Features
 
