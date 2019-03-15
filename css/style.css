@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #101010;
-    
+
 }
 
 
@@ -28,7 +28,7 @@ body {
     height: 0.5px;
     background-color: #fafafa;
 }
- 
+
 
 .row {
     margin: 0;
@@ -206,20 +206,20 @@ body {
     background-color: #85898d;
 }
 
-.tickets-header{
+.tickets-header {
     color: #fafafa;
     font-family: 'Lobster', cursive;
     font-size: 33px;
     margin-bottom: 20px;
-    
+
 }
 
-.progress{
+.progress {
     height: 20px;
     width: 60%;
     margin-left: 20%;
     margin-bottom: 20px;
-    
+
 }
 
 /*--------------------------------------------Shows*/
@@ -372,22 +372,16 @@ body {
     .contact-text {
         font-size: 20px;
     }
-    
+
     .items-divider {
-    width: 60%;
-    height: 0.5px;
-    background-color: #fafafa;
-}
- 
+        width: 60%;
+        height: 0.5px;
+        background-color: #fafafa;
+    }
+
 }
 
 
 
 
 /*--------------------------------------------Media Queries*/
-
-
-
-
-
-

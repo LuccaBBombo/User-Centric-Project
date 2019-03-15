@@ -1,4 +1,4 @@
-User Centric Frontend Development Milestone Project  
+# User Centric Frontend Development Milestone Project  
 
 This website was designed for a singer, in it you can easily find his social media links, listen to some of his musics and watch his music videos. You can also check the next shows dates and location, check tickets availability, buy tickets for the shows and even arrange for the band to some to a event by filling and submitting the contact form.
 
