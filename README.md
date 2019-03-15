@@ -14,9 +14,9 @@ User Stories:
 * As a user, I would like to see some music videos.
 * As a user,  I want to know how I can get in contact to arrange the band / singer to attend an event.
 
-[Desktop Mockup](mockups/desktop_mockup.pdf) In this link you will find the inicial mockup for the destop version.
+[Desktop Mockup](mockups/desktop_mockup.pdf) In this link you will find the inicial mockup for the desktop version.
 
-[Mobile Mockup](mockups/mobile_mockup.pdf) In this link you will find the inicial mockup for the destop version.
+[Mobile Mockup](mockups/mobile_mockup.pdf) In this link you will find the inicial mockup for the mobile version.
 
 
 ### Features
@@ -30,17 +30,22 @@ Media - This page allows users to listen and watch videos of some of the singers
 
 ### Technologies Used
 
-JQuery <https://jquery.com/>
-The project uses JQuery to simplify DOM manipulation.
+JQuery    
+The project uses JQuery to simplify DOM manipulation.    
+[JQuery](https://jquery.com "JQuery Homepage")
 
-Bootstrap <https://getbootstrap.com/>
-The project uses Boostrap to allow for maximum responsiveness on various screen sizes.
+Bootstrap   
+The project uses Boostrap to allow for maximum responsiveness on various screen sizes.   
+[Bootstrap](https://getbootstrap.com/ "Bootstrap Homepage")
 
-Font Awesome <https://fontawesome.com/>
+Font Awesome   
 The project uses Font Awesome to be able to use icons for the social media links.
+[Font Awesome](https://fontawesome.com "Font Awesome Homepage")
 
-Google Fonts <https://fonts.google.com/>
+Google Fonts 
 The project uses Google Fonts to  apply the fonts used on the website.
+[Google Fonts](https://fonts.google.com "Google Fonts Homepage")
+
 
 ### Testing
 
