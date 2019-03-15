@@ -206,6 +206,22 @@ body {
     background-color: #85898d;
 }
 
+.tickets-header{
+    color: #fafafa;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    margin-bottom: 20px;
+    
+}
+
+.progress{
+    height: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    
+}
+
 /*--------------------------------------------Shows*/
 
 /*Media--------------------------------------------*/
