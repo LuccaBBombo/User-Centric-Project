@@ -33,20 +33,20 @@ This page allows users to listen and watch videos of some of the singer's music.
 
 ### Technologies Used
 
-[JQuery](https://jquery.com "JQuery Homepage")
-The project uses JQuery to simplify DOM manipulation.    
+* [JQuery](https://jquery.com "JQuery Homepage")
+..* The project uses JQuery to simplify DOM manipulation.    
 
 
-[Bootstrap](https://getbootstrap.com/ "Bootstrap Homepage")  
-The project uses Bootstrap to allow for maximum responsiveness on various screen sizes.   
+* [Bootstrap](https://getbootstrap.com/ "Bootstrap Homepage")  
+..* The project uses Bootstrap to allow for maximum responsiveness on various screen sizes.   
 
 
-[Font Awesome](https://fontawesome.com "Font Awesome Homepage")   
-The project uses Font Awesome to be able to use icons for social media links.
+* [Font Awesome](https://fontawesome.com "Font Awesome Homepage")   
+..* The project uses Font Awesome to be able to use icons for social media links.
 
 
-[Google Fonts ](https://fonts.google.com "Google Fonts Homepage")
-The project uses Google Fonts to apply the fonts used on the website.
+* [Google Fonts ](https://fonts.google.com "Google Fonts Homepage")
+..* The project uses Google Fonts to apply the fonts used on the website.
 
 
 
