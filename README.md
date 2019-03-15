@@ -8,10 +8,11 @@ UX
 In this project, the design was kept simple and intuitive, allowing everyone who will use the website, to easily locate what they are after and help them achieve what they want with maximum ease.
 
 User Stories:
-As a user, I want to be able to check when and where the next shows are going to take place, so I can make plans to attend.
-As a user, I want to be able to hear some musics samples.
-As a user, I would like to see some music videos.
-As a user,  I want to know how I can get in contact to arrange the band / singer to attend an event.
+
+* As a user, I want to be able to check when and where the next shows are going to take place, so I can make plans to attend.
+* As a user, I want to be able to hear some musics samples.
+* As a user, I would like to see some music videos.
+* As a user,  I want to know how I can get in contact to arrange the band / singer to attend an event.
 
 
 Features
